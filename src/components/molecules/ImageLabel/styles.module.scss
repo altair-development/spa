@@ -1,0 +1,23 @@
+@import '../../functions.modules.scss';
+
+.left {
+  width: em(40);
+  height: em(40);
+}
+
+.icon {
+  img {
+    vertical-align: bottom;
+  }
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.right {
+  max-width: 200px;
+  min-width: 70px;
+  section {
+    line-height: 1.0em;
+  }
+}

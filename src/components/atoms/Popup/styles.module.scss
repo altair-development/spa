@@ -1,0 +1,41 @@
+.origin-wrapper {
+	display: inline-block;
+}
+
+.popper {
+  position: absolute;
+	box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+  background-color: #fff;
+  z-index: var(--z-index-popup);
+	display: inline-block;
+}
+
+.open {
+  animation: open-popup var(--popup-duration) ease-in 0s 1 normal forwards;
+}
+
+@keyframes open-popup {
+	0% {
+    opacity: 0;
+		transform: scale(0);
+	}
+	100% {
+    opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.close {
+  animation: close-popup var(--popup-duration) ease-in 0s 1 normal forwards;
+}
+
+@keyframes close-popup {
+	0% {
+    opacity: 1;
+		transform: scale(1);
+	}
+	100% {
+    opacity: 0;
+		transform: scale(0);
+	}
+}

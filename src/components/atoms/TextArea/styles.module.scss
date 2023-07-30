@@ -1,0 +1,10 @@
+@import '../../functions.modules.scss';
+
+.text-area {
+  resize: none;
+  overflow: hidden;
+  min-height: calc(3em + 2px + em(12));
+  box-sizing: border-box;
+  padding: em(6) em(5);
+  width: 100%;
+}

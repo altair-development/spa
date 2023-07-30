@@ -1,0 +1,33 @@
+@use "sass:math";
+@import '../../functions.modules.scss';
+@import '../../../styles/extend.scss';
+
+.disp-area {
+  padding: em(11) em(15);
+  min-height: 1.5em;
+  word-wrap: break-word;
+  position: relative;
+  padding: {
+    top: em(11);
+    right: em(32);
+    bottom: em(11);
+    left: em(15);
+  }
+}
+
+.select-ico {
+  @extend %selector-icon;
+  position: absolute;
+  top: calc(50% - 12px);
+  right: em(8);
+}
+
+.selector-origin {
+  display: inline-block;
+  width: 100%;
+}
+
+.selector-popper {
+  display: inline-block;
+  width: 100%;
+}

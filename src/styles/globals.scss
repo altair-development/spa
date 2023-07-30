@@ -1,0 +1,138 @@
+@import "~normalize.css";
+@import './variables.scss';
+@import './extend';
+
+html {
+  font-family: $font-family;
+}
+
+body {
+  margin: 0;
+  color: var(--color-text);
+  line-height: 1.5rem;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.text-field-bordered {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--color-border-text-field);
+  border-radius: 5px;
+  &:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+  &:focus {
+    outline: 2px solid var(--color-secondary);
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+}
+
+.text-field-errored {
+  border-color: var(--color-error);
+  &:focus {
+    outline-color: var(--color-error);
+  }
+}
+
+.datepicker-errored fieldset.MuiOutlinedInput-notchedOutline {
+  border-color: var(--color-error);
+}
+
+.datepicker-errored .Mui-focused fieldset.MuiOutlinedInput-notchedOutline {
+  border-color: var(--color-error);
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.selector-icon-opened {
+  transform: rotate(180deg);
+}
+
+.selector-icon-closed {
+  transform: rotate(0deg);
+}
+
+/** リセット **/
+input {
+  appearance: none;
+  padding: 0;
+  width: 100%;
+  color: inherit;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  box-sizing: border-box;
+
+  &:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+textarea {
+  padding: 0;
+  line-height: 1.5em;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+/** スペース **/
+.mg-r-10 {
+  margin-right: 10px;
+}
+
+.mg-r-15 {
+  margin-right: 15px;
+}
+
+/** サイズ **/
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}

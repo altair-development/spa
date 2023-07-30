@@ -1,0 +1,66 @@
+@import '../components/variables.module';
+
+:root {
+  /* 色：色相名とカラーコードの紐づけ */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-black-lt: #333333; /* lt = light */
+  --color-red: #D32F2F;
+  --color-wine-red: #B00020;
+  --color-blue: #1976d2;
+  --color-green: #5ABD51;
+
+  /* 色：色の意味などをサービス全体で統一 */
+  --color-primary: var(--color-wine-red);
+  --color-secondary: var(--color-blue);
+  --color-cancel: var(--color-white);
+  --color-success: var(--color-green);
+  
+  /* 色：媒体固有で使用する色 */
+  --color-text: var(--color-black-lt);
+  --color-text-outlined: var(--color-white);
+  --color-text-canceled: var(--color-secondary);
+  --color-error: var(--color-red);
+  --color-line: var(--color-black-lt);
+  --color-radio-default: var(--color-secondary);
+  --color-radio-panel: #FFFA9F;
+  --color-select-selected: #1976d214;
+  --color-select-hovered: #0000000a;
+  --color-border-text-field: #0000003b;
+  --color-chips-delete: #F5BF43;
+
+  /* 文字：サイズ（媒体に最適化した文字サイズ） */
+  --font-size-s: .75rem;
+  --font-size-ms: .875rem;
+  --font-size-m: 1rem;
+  --font-size-l: 1.2rem;
+
+  /* 画像：サイズ（媒体に最適化した画像サイズ） */
+  --title-logo-w: 63px;
+  --title-logo-h: 26px;
+
+  /* zIndex */
+  --z-index-dialog: 100;
+  --z-index-popup: 999;
+  --z-index-radio-label: 9;
+  --z-index-radio-check: 5;
+
+  /* アニメーション */
+  --popup-duration: #{$popupDuration}ms;
+  --hover-animation-duration: .1s;
+  --hover-animation-timing: ease-out;
+  --hover-animation: var(--hover-animation-duration) var(--hover-animation-timing);
+
+  /* シャドウ */
+  --box-shadow-card: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+
+  /* 枠に関する要素（媒体に最適化した枠デザイン要素） */
+  --line-width: 1px;
+  --line-style: solid;
+  --border: var(--line-width) var(--line-style) var(--color-line);
+  --radius: 2px;
+  --user-icon-radius: 50%;
+
+   /* 文字：太さ（媒体に最適化した文字の太さ） */
+  --font-weight-bold: 700;
+}

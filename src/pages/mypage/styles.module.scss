@@ -1,0 +1,10 @@
+#wrapper {
+  height: 100vh;
+  #main {
+    height: calc(100% - 50px);
+    #sidebar {
+      width: 19%;
+      min-width: 245px;
+    }
+  }
+}

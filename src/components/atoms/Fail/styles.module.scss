@@ -1,0 +1,8 @@
+@import '../../functions.modules.scss';
+
+.fail-wrapper {
+  color: var(--color-error);
+  display: inline-block;
+  width: 1.375em;
+  height: 1.375em;
+}

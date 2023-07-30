@@ -1,0 +1,45 @@
+@import '../../functions.modules.scss';
+
+#create-project-dlg {
+  .dialog-title {
+    font-size: normal;
+    margin: 0;
+  }
+  
+  tr:nth-child(1) th {
+    padding-top: 0;
+  }
+  
+  .error-row {
+    td {
+      padding-top: 5px;
+    }
+  }
+  
+  th {
+    text-align: left;
+    padding-top: 20px;
+    line-height: 1em;
+  }
+  
+  td {
+    padding-top: 10px;
+    &.start-date-td {
+      padding-right: 10px;
+    }
+  }
+  
+  .date-picker {
+    input {
+      padding: em(10) 0 em(10) em(5);
+      line-height: 1.0em;
+      height: auto;
+    }
+    .input-adornment {
+      button {
+        padding-top: 0.4915625rem;
+        padding-bottom: 0.4915625rem;
+      }
+    }
+  }
+}

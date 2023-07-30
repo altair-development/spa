@@ -1,0 +1,6 @@
+$popupDuration: 100;
+
+/* jsで使用するためにエクスポートする */
+:export {
+  popupDuration: $popupDuration;
+}

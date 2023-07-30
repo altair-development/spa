@@ -1,0 +1,41 @@
+{
+  "project": {
+      "64997de9ffe03b6e1c997710": {
+          "info": {
+              "start_date": "2023-06-01T00:00:00.000Z",
+              "end_date": "2023-06-30T00:00:00.000Z",
+              "name": "テストプロジェクト",
+              "clan_id": "631b42659612dd9d052097ec",
+              "created": "2023-06-26T12:00:41.140Z",
+              "modified": "2023-06-26T12:00:41.140Z",
+              "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+              "clan_name": "クラン１",
+              "clan_user_name": "テストユーザー1",
+              "author_id": "62f2a1a9b9b80074e4e76fc5",
+              "author_name": "テストユーザー1",
+              "writer_id": "62f2a1a9b9b80074e4e76fc5",
+              "writer_name": "テストユーザー1"
+          },
+          "tickets": {},
+          "histories": {
+              "64997de9ffe03b6e1c997712": {
+                  "name": "テストプロジェクト",
+                  "clan_id": "631b42659612dd9d052097ec",
+                  "start_date": "2023-06-01",
+                  "end_date": "2023-06-30",
+                  "created": "2023-06-26T12:00:41.140Z",
+                  "modified": "2023-06-26T12:00:41.140Z",
+                  "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                  "clan_name": "クラン１",
+                  "clan_user_name": "テストユーザー1",
+                  "author_id": "62f2a1a9b9b80074e4e76fc5",
+                  "author_name": "テストユーザー1",
+                  "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                  "writer_name": "テストユーザー1"
+              }
+          }
+      }
+  },
+  "clan_id": "631b42659612dd9d052097ec",
+  "user": "62f2a1a9b9b80074e4e76fc5"
+}

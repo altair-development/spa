@@ -1,0 +1,774 @@
+{
+    "631b42659612dd9d052097ec": {
+        "profile": {
+            "user_id": "62f2a1a9b9b80074e4e76fc5",
+            "name": "クラン１",
+            "description": "テストクランです。",
+            "created": "2022-08-09T18:06:26.625Z",
+            "modified": "2022-08-09T18:06:26.625Z",
+            "user_name": "テストユーザー1",
+            "agreement": 1,
+            "is_owner": true
+        },
+        "play_titles": [
+            {
+                "title_id": "63cd278495bb762b484fe9b4",
+                "title_name": "call of duty"
+            },
+            {
+                "title_id": "63d241df4000884d94673dad",
+                "title_name": "battle field"
+            }
+        ],
+        "members": [
+            {
+                "user_id": "61ce92160aedb73eec1bfa9f",
+                "user_name": "テストユーザー1",
+                "agreement": 1
+            },
+            {
+                "user_id": "62ce92160aedb73eec1bfa9f",
+                "user_name": "テスト2",
+                "agreement": 1
+            },
+            {
+                "user_id": "63ce92160aedb73eec1bfa9f",
+                "user_name": "テストabcdefghijklmnobqrstuvwxyzabcdefghijklmnobqrstuvwxyzabcdefghijklmnobqrstuvwxyz",
+                "agreement": 1
+            },
+            {
+                "user_id": "64ce92160aedb73eec1bfa9f",
+                "user_name": "テストユーザー4",
+                "agreement": 1
+            },
+            {
+                "user_id": "65ce92160aedb73eec1bfa9f",
+                "user_name": "テストユーザー5",
+                "agreement": 1
+            }
+        ],
+        "projects": {
+            "63255ee11427d42d1434d240": {
+                "info": {
+                    "start_date": "2022-09-01T00:00:00.000Z",
+                    "end_date": "2022-09-30T00:00:00.000Z",
+                    "name": "プロジェクト１",
+                    "clan_id": "631b42659612dd9d052097ec",
+                    "created": "2022-09-17T05:45:05.475Z",
+                    "modified": "2022-09-17T05:45:05.475Z",
+                    "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                    "clan_name": "クラン１",
+                    "clan_user_name": "テストユーザー1",
+                    "author_id": "62f2a1a9b9b80074e4e76fc5",
+                    "author_name": "テストユーザー1",
+                    "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                    "writer_name": "テストユーザー1"
+                },
+                "tickets": {
+                    "63cd27a095bb762b484fe9b6": {
+                        "limit_date": "2023-02-09T00:00:00.000Z",
+                        "description": "",
+                        "clan_id": "631b42659612dd9d052097ec",
+                        "project_id": "63255ee11427d42d1434d240",
+                        "tracker": 1,
+                        "status": 0,
+                        "work_tickets": {
+                            "title": "あaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                            "progress_rate": "20"
+                        },
+                        "created": "2023-01-22T12:10:08.041Z",
+                        "modified": "2023-04-03T00:36:30.238Z",
+                        "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                        "clan_name": "クラン１",
+                        "clan_user_name": "テストユーザー1",
+                        "project_name": "プロジェクト１",
+                        "writer_clan_id": "631b42659612dd9d052097ec",
+                        "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                        "writer_clan_name": "クラン１",
+                        "writer_clan_user_name": "テストユーザー1",
+                        "author_id": "62f2a1a9b9b80074e4e76fc5",
+                        "author_name": "テストユーザー1",
+                        "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                        "writer_name": "テストユーザー1",
+                        "shoulder_id": "62f2a1a9b9b80074e4e76fc5",
+                        "shoulder_name": "テストユーザー1",
+                        "watchers": {},
+                        "ticket_histories": {
+                            "63cd27a095bb762b484fe9b7": {
+                                "clan_id": "631b42659612dd9d052097ec",
+                                "project_id": "63255ee11427d42d1434d240",
+                                "tracker": "1",
+                                "status": "0",
+                                "work_tickets": {
+                                    "title": "テスト依頼"
+                                },
+                                "created": "2023-01-22T12:10:08.065Z",
+                                "modified": "2023-01-22T12:10:08.065Z",
+                                "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "clan_name": "クラン１",
+                                "clan_user_name": "テストユーザー1",
+                                "project_name": "プロジェクト１",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "author_id": "62f2a1a9b9b80074e4e76fc5",
+                                "author_name": "テストユーザー1",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "watcher_histories": {}
+                            },
+                            "63e873d8238b768288b0a187": {
+                                "tracker": "1",
+                                "created": "2023-02-12T05:06:32.386Z",
+                                "limit_date": "2023-02-17",
+                                "modified": "2023-02-12T05:06:32.386Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "63e873e9238b768288b0a188": {
+                                "tracker": "1",
+                                "created": "2023-02-12T05:06:49.096Z",
+                                "work_tickets": {
+                                    "progress_rate": "20"
+                                },
+                                "modified": "2023-02-12T05:06:49.096Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "63e873fa238b768288b0a189": {
+                                "tracker": "1",
+                                "created": "2023-02-12T05:07:06.567Z",
+                                "modified": "2023-02-12T05:07:06.567Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "shoulder_id": "62f2a1a9b9b80074e4e76fc5",
+                                "shoulder_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "63e8752a238b768288b0a18a": {
+                                "tracker": "1",
+                                "created": "2023-02-12T05:12:10.637Z",
+                                "limit_date": "2023-02-09",
+                                "modified": "2023-02-12T05:12:10.637Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "64046a68cefed14bc801d8ad": {
+                                "tracker": "1",
+                                "created": "2023-03-05T10:09:44.498Z",
+                                "work_tickets": {
+                                    "title": "テスト依頼aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                },
+                                "modified": "2023-03-05T10:09:44.498Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "6404abb7cefed14bc801d8ae": {
+                                "tracker": "1",
+                                "created": "2023-03-05T14:48:23.083Z",
+                                "work_tickets": {
+                                    "title": "あ"
+                                },
+                                "modified": "2023-03-05T14:48:23.083Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "6404acc2cefed14bc801d8af": {
+                                "tracker": "1",
+                                "created": "2023-03-05T14:52:50.615Z",
+                                "work_tickets": {
+                                    "title": "あa"
+                                },
+                                "modified": "2023-03-05T14:52:50.615Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "6404acd4cefed14bc801d8b0": {
+                                "tracker": "1",
+                                "created": "2023-03-05T14:53:08.711Z",
+                                "work_tickets": {
+                                    "title": "あaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                },
+                                "modified": "2023-03-05T14:53:08.711Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "6404adf0cefed14bc801d8b1": {
+                                "tracker": "1",
+                                "created": "2023-03-05T14:57:52.664Z",
+                                "work_tickets": {
+                                    "title": "あaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                },
+                                "modified": "2023-03-05T14:57:52.664Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "6404aeb8cefed14bc801d8b2": {
+                                "tracker": "1",
+                                "created": "2023-03-05T15:01:12.168Z",
+                                "work_tickets": {
+                                    "title": "あaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                },
+                                "modified": "2023-03-05T15:01:12.168Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "6404aef4cefed14bc801d8b3": {
+                                "tracker": "1",
+                                "created": "2023-03-05T15:02:12.621Z",
+                                "work_tickets": {
+                                    "title": "あaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                },
+                                "modified": "2023-03-05T15:02:12.621Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            },
+                            "642a1b49ee311767600f9c6e": {
+                                "tracker": "1",
+                                "created": "2023-04-03T00:18:17.810Z",
+                                "modified": "2023-04-03T00:18:17.810Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "shoulder_id": "63ce92160aedb73eec1bfa9f",
+                                "shoulder_name": "テストユーザー3",
+                                "watcher_histories": {}
+                            },
+                            "642a1f8eee311767600f9c6f": {
+                                "tracker": "1",
+                                "created": "2023-04-03T00:36:30.238Z",
+                                "modified": "2023-04-03T00:36:30.238Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "shoulder_id": "62f2a1a9b9b80074e4e76fc5",
+                                "shoulder_name": "テストユーザー1",
+                                "watcher_histories": {}
+                            }
+                        }
+                    },
+                    "63ce483e0aedb73eec1bfa99": {
+                        "limit_date": "2023-01-27T00:00:00.000Z",
+                        "description": "<p>うおお！！</p>",
+                        "start_date": "2023-01-23T00:00:00.000Z",
+                        "end_date": "2023-01-24T00:00:00.000Z",
+                        "clan_id": "631b42659612dd9d052097ec",
+                        "project_id": "63255ee11427d42d1434d240",
+                        "tracker": 0,
+                        "status": 0,
+                        "fight_tickets": {
+                            "play_title_id": "63cd278495bb762b484fe9b4",
+                            "play_title_name": "call of duty",
+                            "opponent_id": "63ce48030aedb73eec1bfa98",
+                            "opponent_user_id": "62f2a222b9b80074e4e76fc6",
+                            "opponent_name": "クラン2",
+                            "opponent_user_name": "テストユーザー2"
+                        },
+                        "created": "2023-01-23T08:41:34.645Z",
+                        "modified": "2023-04-06T11:13:36.996Z",
+                        "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                        "clan_name": "クラン１",
+                        "clan_user_name": "テストユーザー1",
+                        "project_name": "プロジェクト１",
+                        "writer_clan_id": "631b42659612dd9d052097ec",
+                        "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                        "writer_clan_name": "クラン１",
+                        "writer_clan_user_name": "テストユーザー1",
+                        "author_id": "62f2a1a9b9b80074e4e76fc5",
+                        "author_name": "テストユーザー1",
+                        "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                        "writer_name": "テストユーザー1",
+                        "shoulder_id": "62f2a1a9b9b80074e4e76fc5",
+                        "shoulder_name": "テストユーザー1",
+                        "watchers": {
+                            "631b42659612dd9d052097ec": [
+                                {
+                                    "user_id": "63ce92160aedb73eec1bfa9f",
+                                    "user_name": "テストユーザー3"
+                                }
+                            ]
+                        },
+                        "entry_members": {},
+                        "lives": {
+                            "631b42659612dd9d052097ec": {
+                                "live": "0",
+                                "live_url": ""
+                            },
+                            "63ce48030aedb73eec1bfa98": {
+                                "live": "0",
+                                "live_url": ""
+                            }
+                        },
+                        "ticket_histories": {
+                            "63ce483e0aedb73eec1bfa9c": {
+                                "clan_id": "631b42659612dd9d052097ec",
+                                "project_id": "63255ee11427d42d1434d240",
+                                "limit_date": "2023-01-24",
+                                "tracker": "0",
+                                "status": "0",
+                                "description": "<p>うおお！！</p>",
+                                "start_date": "2023-01-23",
+                                "end_date": "2023-01-24",
+                                "fight_tickets": {
+                                    "play_title_id": "63cd278495bb762b484fe9b4",
+                                    "play_title_name": "call of duty",
+                                    "opponent_id": "63ce48030aedb73eec1bfa98",
+                                    "opponent_user_id": "62f2a222b9b80074e4e76fc6",
+                                    "opponent_name": "クラン2",
+                                    "opponent_user_name": "テストユーザー2"
+                                },
+                                "created": "2023-01-23T08:41:34.671Z",
+                                "modified": "2023-01-23T08:41:34.671Z",
+                                "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "clan_name": "クラン１",
+                                "clan_user_name": "テストユーザー1",
+                                "project_name": "プロジェクト１",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "author_id": "62f2a1a9b9b80074e4e76fc5",
+                                "author_name": "テストユーザー1",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "shoulder_id": "62f2a1a9b9b80074e4e76fc5",
+                                "shoulder_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "watcher_histories": {},
+                                "live_histories": {
+                                    "63ce48030aedb73eec1bfa98": {
+                                        "live": 0,
+                                        "live_url": ""
+                                    },
+                                    "631b42659612dd9d052097ec": {
+                                        "live": 0,
+                                        "live_url": ""
+                                    }
+                                },
+                                "entry_member_histories": {}
+                            },
+                            "63ce92b70aedb73eec1bfaa5": {
+                                "tracker": "0",
+                                "created": "2023-01-23T13:59:19.514Z",
+                                "modified": "2023-01-23T13:59:19.514Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "live_histories": {},
+                                "watcher_histories": {},
+                                "entry_member_histories": {
+                                    "631b42659612dd9d052097ec": {
+                                        "dml": "i"
+                                    }
+                                }
+                            },
+                            "63cfe53463d8cc258039f724": {
+                                "tracker": "0",
+                                "created": "2023-01-24T14:03:32.044Z",
+                                "limit_date": "2023-01-27",
+                                "modified": "2023-01-24T14:03:32.044Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "entry_member_histories": {},
+                                "watcher_histories": {},
+                                "live_histories": {}
+                            },
+                            "64143c81f361d83bf40dd8ae": {
+                                "tracker": "0",
+                                "created": "2023-03-17T10:10:09.348Z",
+                                "modified": "2023-03-17T10:10:09.348Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "entry_member_histories": {},
+                                "live_histories": {},
+                                "watcher_histories": {
+                                    "631b42659612dd9d052097ec": {
+                                        "dml": "i"
+                                    }
+                                }
+                            },
+                            "641544c97caa5274fc3e57bf": {
+                                "tracker": "0",
+                                "created": "2023-03-18T04:57:45.964Z",
+                                "modified": "2023-03-18T04:57:45.964Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "entry_member_histories": {
+                                    "631b42659612dd9d052097ec": {
+                                        "dml": "d"
+                                    }
+                                },
+                                "live_histories": {},
+                                "watcher_histories": {}
+                            },
+                            "642e83340166cd11249d5c25": {
+                                "tracker": "0",
+                                "created": "2023-04-06T08:30:44.273Z",
+                                "modified": "2023-04-06T08:30:44.273Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "live_histories": {},
+                                "watcher_histories": {
+                                    "631b42659612dd9d052097ec": {
+                                        "dml": "d"
+                                    }
+                                },
+                                "entry_member_histories": {}
+                            },
+                            "642ea9600166cd11249d5c27": {
+                                "tracker": "0",
+                                "created": "2023-04-06T11:13:36.996Z",
+                                "modified": "2023-04-06T11:13:36.996Z",
+                                "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_name": "テストユーザー1",
+                                "ticket_project_id": "63255ee11427d42d1434d240",
+                                "writer_clan_id": "631b42659612dd9d052097ec",
+                                "writer_clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                                "writer_clan_name": "クラン１",
+                                "writer_clan_user_name": "テストユーザー1",
+                                "watcher_histories": {
+                                    "631b42659612dd9d052097ec": {
+                                        "dml": "i"
+                                    }
+                                },
+                                "entry_member_histories": {},
+                                "live_histories": {}
+                            }
+                        }
+                    }
+                },
+                "histories": {
+                    "63255ee11427d42d1434d241": {
+                        "name": "プロジェクト１",
+                        "clan_id": "631b42659612dd9d052097ec",
+                        "start_date": "2022-09-01",
+                        "end_date": "2022-09-30",
+                        "created": "2022-09-17T05:45:05.475Z",
+                        "modified": "2022-09-17T05:45:05.475Z",
+                        "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                        "clan_name": "クラン１",
+                        "clan_user_name": "テストユーザー1",
+                        "author_id": "62f2a1a9b9b80074e4e76fc5",
+                        "author_name": "テストユーザー1",
+                        "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                        "writer_name": "テストユーザー1"
+                    }
+                }
+            },
+            "64143c4af361d83bf40dd8aa": {
+                "info": {
+                    "start_date": "2023-03-17T00:00:00.000Z",
+                    "end_date": "2023-03-18T00:00:00.000Z",
+                    "name": "プロジェクト2",
+                    "clan_id": "631b42659612dd9d052097ec",
+                    "created": "2023-03-17T10:09:14.276Z",
+                    "modified": "2023-03-17T10:09:14.276Z",
+                    "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                    "clan_name": "クラン１",
+                    "clan_user_name": "テストユーザー1",
+                    "author_id": "62f2a1a9b9b80074e4e76fc5",
+                    "author_name": "テストユーザー1",
+                    "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                    "writer_name": "テストユーザー1"
+                },
+                "tickets": {},
+                "histories": {
+                    "64143c4af361d83bf40dd8ac": {
+                        "name": "プロジェクト2",
+                        "clan_id": "631b42659612dd9d052097ec",
+                        "start_date": "2023-03-17",
+                        "end_date": "2023-03-18",
+                        "created": "2023-03-17T10:09:14.276Z",
+                        "modified": "2023-03-17T10:09:14.276Z",
+                        "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                        "clan_name": "クラン１",
+                        "clan_user_name": "テストユーザー1",
+                        "author_id": "62f2a1a9b9b80074e4e76fc5",
+                        "author_name": "テストユーザー1",
+                        "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                        "writer_name": "テストユーザー1"
+                    }
+                }
+            },
+            "644f6422cc5ef72e20fd161c": {
+                "info": {
+                    "start_date": "2023-05-01T00:00:00.000Z",
+                    "end_date": "2023-05-02T00:00:00.000Z",
+                    "name": "プロジェクト３",
+                    "clan_id": "631b42659612dd9d052097ec",
+                    "created": "2023-05-01T07:02:58.987Z",
+                    "modified": "2023-05-01T07:02:58.987Z",
+                    "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                    "clan_name": "クラン１",
+                    "clan_user_name": "テストユーザー1",
+                    "author_id": "62f2a1a9b9b80074e4e76fc5",
+                    "author_name": "テストユーザー1",
+                    "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                    "writer_name": "テストユーザー1"
+                },
+                "tickets": {},
+                "histories": {
+                    "644f6423cc5ef72e20fd161e": {
+                        "name": "プロジェクト３",
+                        "clan_id": "631b42659612dd9d052097ec",
+                        "start_date": "2023-05-01",
+                        "end_date": "2023-05-02",
+                        "created": "2023-05-01T07:02:58.987Z",
+                        "modified": "2023-05-01T07:02:58.987Z",
+                        "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                        "clan_name": "クラン１",
+                        "clan_user_name": "テストユーザー1",
+                        "author_id": "62f2a1a9b9b80074e4e76fc5",
+                        "author_name": "テストユーザー1",
+                        "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                        "writer_name": "テストユーザー1"
+                    }
+                }
+            },
+            "644f64dacc5ef72e20fd1620": {
+                "info": {
+                    "start_date": "2023-05-01T00:00:00.000Z",
+                    "end_date": "2023-05-02T00:00:00.000Z",
+                    "name": "プロジェクト４",
+                    "clan_id": "631b42659612dd9d052097ec",
+                    "created": "2023-05-01T07:06:02.888Z",
+                    "modified": "2023-05-01T07:06:02.888Z",
+                    "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                    "clan_name": "クラン１",
+                    "clan_user_name": "テストユーザー1",
+                    "author_id": "62f2a1a9b9b80074e4e76fc5",
+                    "author_name": "テストユーザー1",
+                    "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                    "writer_name": "テストユーザー1"
+                },
+                "tickets": {},
+                "histories": {
+                    "644f64dacc5ef72e20fd1622": {
+                        "name": "プロジェクト４",
+                        "clan_id": "631b42659612dd9d052097ec",
+                        "start_date": "2023-05-01",
+                        "end_date": "2023-05-02",
+                        "created": "2023-05-01T07:06:02.888Z",
+                        "modified": "2023-05-01T07:06:02.888Z",
+                        "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                        "clan_name": "クラン１",
+                        "clan_user_name": "テストユーザー1",
+                        "author_id": "62f2a1a9b9b80074e4e76fc5",
+                        "author_name": "テストユーザー1",
+                        "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                        "writer_name": "テストユーザー1"
+                    }
+                }
+            },
+            "6458d7bc66cfb05b88104360": {
+                "info": {
+                    "start_date": "2023-05-01T00:00:00.000Z",
+                    "end_date": "2023-05-02T00:00:00.000Z",
+                    "name": "マイページプロジェクト1",
+                    "clan_id": "631b42659612dd9d052097ec",
+                    "created": "2023-05-08T11:06:36.546Z",
+                    "modified": "2023-05-08T11:06:36.546Z",
+                    "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                    "clan_name": "クラン１",
+                    "clan_user_name": "テストユーザー1",
+                    "author_id": "62f2a1a9b9b80074e4e76fc5",
+                    "author_name": "テストユーザー1",
+                    "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                    "writer_name": "テストユーザー1"
+                },
+                "tickets": {},
+                "histories": {
+                    "6458d7bc66cfb05b88104362": {
+                        "name": "マイページプロジェクト1",
+                        "clan_id": "631b42659612dd9d052097ec",
+                        "start_date": "2023-05-01",
+                        "end_date": "2023-05-02",
+                        "created": "2023-05-08T11:06:36.546Z",
+                        "modified": "2023-05-08T11:06:36.546Z",
+                        "clan_user_id": "62f2a1a9b9b80074e4e76fc5",
+                        "clan_name": "クラン１",
+                        "clan_user_name": "テストユーザー1",
+                        "author_id": "62f2a1a9b9b80074e4e76fc5",
+                        "author_name": "テストユーザー1",
+                        "writer_id": "62f2a1a9b9b80074e4e76fc5",
+                        "writer_name": "テストユーザー1"
+                    }
+                }
+            }
+        }
+    },
+    "644fa8b190534927686c8c1f": {
+        "profile": {
+            "description": "",
+            "user_id": "62f2a1a9b9b80074e4e76fc5",
+            "name": "マイページクラン4",
+            "created": "2023-05-01T11:55:28.999Z",
+            "modified": "2023-05-01T11:55:28.999Z",
+            "user_name": "テストユーザー1",
+            "agreement": 1,
+            "is_owner": true
+        },
+        "play_titles": [],
+        "members": [],
+        "projects": {}
+    },
+    "644fa94490534927686c8c20": {
+        "profile": {
+            "description": "",
+            "user_id": "62f2a1a9b9b80074e4e76fc5",
+            "name": "マイページクラン5",
+            "created": "2023-05-01T11:57:56.559Z",
+            "modified": "2023-05-01T11:57:56.559Z",
+            "user_name": "テストユーザー1",
+            "agreement": 1,
+            "is_owner": true
+        },
+        "play_titles": [],
+        "members": [],
+        "projects": {}
+    },
+    "644fa9f67f62a66ce0e43329": {
+        "profile": {
+            "description": "",
+            "user_id": "62f2a1a9b9b80074e4e76fc5",
+            "name": "マイページクラン6",
+            "created": "2023-05-01T12:00:54.702Z",
+            "modified": "2023-05-01T12:00:54.702Z",
+            "user_name": "テストユーザー1",
+            "agreement": 1,
+            "is_owner": true
+        },
+        "play_titles": [],
+        "members": [],
+        "projects": {}
+    },
+    "644faa137f62a66ce0e4332a": {
+        "profile": {
+            "description": "",
+            "user_id": "62f2a1a9b9b80074e4e76fc5",
+            "name": "マイページクラン7",
+            "created": "2023-05-01T12:01:23.109Z",
+            "modified": "2023-05-01T12:01:23.109Z",
+            "user_name": "テストユーザー1",
+            "agreement": 1,
+            "is_owner": true
+        },
+        "play_titles": [],
+        "members": [],
+        "projects": {}
+    },
+    "6458d4e88f2b175614f72d30": {
+        "profile": {
+            "description": "",
+            "user_id": "62f2a1a9b9b80074e4e76fc5",
+            "name": "マイページクラン1",
+            "created": "2023-05-08T10:54:32.628Z",
+            "modified": "2023-05-08T10:54:32.628Z",
+            "user_name": "テストユーザー1",
+            "agreement": 1,
+            "is_owner": true
+        },
+        "play_titles": [],
+        "members": [],
+        "projects": {}
+    }
+}

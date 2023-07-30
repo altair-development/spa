@@ -1,0 +1,88 @@
+$panel-padding: 17px 0 17px 30px;
+$font-color: #F5D5D5;
+$highlight-color: #C80000;
+%panel-link-anchor {
+	text-decoration: none;
+	color: $font-color;
+	display: block;
+	padding: $panel-padding;
+}
+
+.sidebar {
+	background-color: var(--color-primary);
+	height: 100%;
+	overflow: auto;
+	li {
+		line-height: 1.0em;
+	}
+	.selected {
+		& > a {
+			background-color: $highlight-color;
+		}
+	}
+	.clan-list {
+		a {
+			@extend %panel-link-anchor;
+			&:hover {
+				background-color: $highlight-color;
+			}
+		}
+		.clan-menu {
+			position: absolute;
+			right: 10px;
+			top: calc(50% - 0.75em);
+			.menu-ico {
+				vertical-align: middle;
+				color: $font-color;
+			}
+		}
+		.project-list {
+			li {
+				a {
+					@extend %panel-link-anchor;
+					padding: 10px 0 10px 45px;
+					&:hover {
+						background-color: $highlight-color;
+					}
+				}
+			}
+		}
+		li > a {
+			position: relative;
+		}
+	}
+	.menu {
+		a {
+			@extend %panel-link-anchor;
+			&:hover {
+				background-color: $highlight-color;
+			}
+		}
+	}
+	.create-clan-list {
+		li {
+			padding: 17px 30px;
+			a {
+				color: $font-color;
+				cursor: pointer;
+				position: relative;
+				padding-left: 1.5em;
+				.create-clan-ico {
+					position: absolute;
+					left: 0;
+					top: calc(50% - 0.5em);
+				}
+			}
+			.text-field {
+				background-color: var(--color-white);
+				border-color: none;
+			}
+			.error-list {
+				margin-top: 5px;
+				p {
+					color: var(--color-white);
+				}
+			}
+		}
+	}
+}

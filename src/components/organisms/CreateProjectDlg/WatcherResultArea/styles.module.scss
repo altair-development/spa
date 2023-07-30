@@ -1,0 +1,17 @@
+@import '../../../functions.modules.scss';
+
+.watcher-result-area {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 528px;
+  max-height: em(98);
+  padding: 5px 0;
+  .with-image-chips {
+    margin-bottom: 5px;
+    margin-right: 27px;
+    max-width: calc(100% - 27px);
+    .user-name {
+      max-width: calc(100% - (2.5em + 15px));
+    }
+  }
+}

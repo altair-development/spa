@@ -1,0 +1,14 @@
+.root {
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  section {
+    &:nth-child(2) {
+      margin-top: 3px;
+    }
+  }
+}

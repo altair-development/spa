@@ -1,0 +1,78 @@
+@use "sass:math";
+@import '../../functions.modules.scss';
+
+.radio-input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.radio-label {
+  display: block;
+  cursor: pointer;
+  line-height: 1;
+  overflow-wrap: break-word;
+}
+
+.radio {
+  position: relative;
+  label {
+    @extend .radio-label;
+    padding: em(12, 16) em(42, 16);
+    padding-right: 0;
+    position: relative;
+    z-index: var(--z-index-radio-label);
+  }
+  input[type=radio] {
+    @extend .radio-input;
+    &:checked{
+      & ~ .check {
+        border-color: var(--color-radio-default);
+        &::before{
+          background: var(--color-radio-default);
+        }
+      }
+    }
+  }
+  .check {
+    $height: math.div(16, 16);
+    position: absolute;
+    border: em(2, 16) solid #00000099;
+    border-radius: 100%;
+    height: #{$height}em;
+    width: #{$height}em;
+    top: calc(50% - em(10, 16));
+    left: 11px;
+    transition: border .25s linear;
+    z-index: var(--z-index-radio-check);
+    &::before {
+      $height: math.div(10, 16);
+      display: block;
+      position: absolute;
+      content: '';
+      border-radius: 100%;
+      height: #{$height}em;
+      width: #{$height}em;
+      top: calc(50% - #{math.div($height, 2)}em);
+      left: calc(50% - #{math.div($height, 2)}em);
+      transition: background 0.25s linear;
+    }
+  }
+}
+
+.panel {
+  position: relative;
+  label {
+    @extend .radio-label;
+    background-color: #EEEEEE;
+    transition: background .25s linear;
+    padding: em(10, 16) em(15, 16);
+  }
+  input[type=radio] {
+    @extend .radio-input;
+    &:checked{
+      & ~ label {
+        background-color: var(--color-radio-panel);
+      }
+    }
+  }
+}

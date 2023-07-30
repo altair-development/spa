@@ -1,0 +1,5 @@
+@import '../../../styles/extend.scss';
+
+.select-ico {
+  @extend %selector-icon;
+}

@@ -1,0 +1,40 @@
+@use "sass:math";
+@import '../../functions.modules.scss';
+
+.disp-area {
+  padding: em(11) em(15);
+  min-height: 1.5em;
+  word-wrap: break-word;
+  position: relative;
+  padding: {
+    top: em(11);
+    right: em(32);
+    bottom: em(11);
+    left: em(15);
+  }
+}
+
+.select-ico {
+  position: absolute;
+  top: calc(50% - 12px);
+  right: em(8);
+  transition: transform 0.25s linear;
+}
+
+.opened {
+  transform: rotate(180deg);
+}
+
+.closed {
+  transform: rotate(0deg);
+}
+
+.selector-origin {
+  display: inline-block;
+  width: 100%;
+}
+
+.selector-popper {
+  display: inline-block;
+  width: 100%;
+}

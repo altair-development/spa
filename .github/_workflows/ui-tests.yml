@@ -1,0 +1,25 @@
+# # Workflow name
+# name: 'Chromatic Deployment'
+
+# # Event for the workflow
+# on: pull_request
+
+# # List of jobs
+# jobs:
+#   test:
+#     # Operating System
+#     runs-on: ubuntu-latest
+#     # Job steps
+#     steps:
+#       - uses: actions/checkout@v1
+#       - run: npm ci
+#       # - name: 'Create env file'
+#       #   run: |
+#       #     echo "${{ secrets.ENV_FILE }}" > .env.local
+#         #👇 クロマティックをワークフローのステップとして追加
+#       - uses: chromaui/action@v1
+#         # Chromatic の GitHub アクションに必要なオプション
+#         with:
+#           #👇 Chromatic projectToken、https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/ を参照して取得してください
+#           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+#           token: ${{ secrets.GIT_TOKEN }}

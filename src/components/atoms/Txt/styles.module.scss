@@ -1,0 +1,8 @@
+.default { color: inherit; }
+.error { color: var(--color-error); }
+.s { font-size: var(--font-size-s); }
+.m { font-size: var(--font-size-m); }
+.l { font-size: var(--font-size-l); }
+.txt {
+  word-wrap: break-word;
+}

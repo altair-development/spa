@@ -1,0 +1,43 @@
+@import '../../functions.modules.scss';
+
+.button {
+  border-radius: var(--radius);
+  border-width: 0;
+  border-style: solid;
+  display: inline-block;
+  font-weight: bold;
+  font-size: var(--font-size-ms);
+  line-height: 1;
+  padding: {
+    right: 30px;
+    left: 30px;
+  }
+  max-height: em(42, 14);
+  min-height: em(42, 14);
+  text-decoration: none;
+  transition: opacity var(--hover-animation);
+  box-shadow: var(--box-shadow-card);
+  &:hover {
+    opacity: .7;
+  }
+}
+
+.default {
+  background-color: inherit;
+  border: var(--border);
+  color: var(--color-text);
+}
+
+.primary {
+  background-color: var(--color-secondary);
+  color: var(--color-text-outlined);
+  min-width: em(88, 14);
+}
+
+.cancel {
+  background-color: var(--color-cancel);
+  color: var(--color-text-canceled);
+  border-width: 2px;
+  border-color: var(--color-secondary);
+  min-width: em(134, 14);
+}

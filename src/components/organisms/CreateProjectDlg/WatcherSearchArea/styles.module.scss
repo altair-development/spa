@@ -1,0 +1,23 @@
+.match-data {
+  flex-direction: column;
+  padding: 15px 0;
+  .user-label {
+    width: 100%;
+    cursor: pointer;
+    padding: 2.5px 15px;
+    box-sizing: border-box;
+    &:hover, &:focus {
+      background-color: var(--color-select-selected);
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .user-icon {
+      flex-shrink: 0;
+    }
+    .user-name {
+      flex-grow: 1;
+      max-width: none;
+    }
+  }
+}

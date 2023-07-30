@@ -1,0 +1,41 @@
+.card {
+  display: inline-block;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  padding: 2px 0 2px 2px;
+  margin-right: 22px;
+  background-color: var(--color-chips-delete);
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 1px -1px, rgba(0, 0, 0, 0.14) 1px 1px 1px 0px, rgba(0, 0, 0, 0.12) 1px 1px 3px 0px;
+  &::after {
+    content: "";
+    background-color: var(--color-chips-delete);
+    display: block;
+    position: absolute;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    top: 0;
+    right: -22px;
+    height: 100%;
+    width: 22px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px -1px, rgba(0, 0, 0, 0.14) 1px 1px 0px 0px, rgba(0, 0, 0, 0.12) 1px 1px 1px 0px;
+  }
+}
+
+.card:focus {
+  opacity: 0.5;
+  outline: none;
+}
+
+.delete-ico {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -5px;
+  right: -25px;
+  z-index: 2;
+  &:hover {
+    opacity: 0.7;
+  }
+}
