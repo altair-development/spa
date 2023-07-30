@@ -1,4 +1,4 @@
-# altair/spa
+# spa
 Next.jsで構築したWebサーバーモジュール。
 
 - HTMLレンダリング：CSR方式
@@ -12,13 +12,13 @@ HTMLのレンダリングにSSRを採用しないのにNext.jsの利用を決め
 - 勉強のため
 
 ## How to use
-まず最初に下記のコマンドを実行しaltairレポジトリをクローンします。  
+まず最初に下記のコマンドを実行しspaレポジトリをクローンします。  
 ```
-git clone https://github.com/joey23008/altair.git
+git clone https://github.com/altair-development/spa.git
 ```
 次にspaフォルダに移動します。
 ```
-cd altair/spa
+cd spa
 ```
 モジュールの実行に必要なnpmライブラリをインストールします。
 ```
